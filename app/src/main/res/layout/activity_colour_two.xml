@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8610F"
+    tools:context=".ColourTwo">
+
+    <TextView
+        android:id="@+id/OrangeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="327dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="289dp"
+        android:text="You Chose Orange"
+        android:textColor="#ffffff"
+        android:textSize="75px"
+        app:layout_constraintBottom_toTopOf="@+id/ReturnButton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ReturnButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="289dp"
+        android:layout_marginEnd="288dp"
+        android:backgroundTint="#E91E63"
+        android:onClick="ReturnPickAColour"
+        android:text="Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/OrangeTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>
